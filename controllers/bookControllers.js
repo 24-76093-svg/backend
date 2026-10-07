@@ -1,4 +1,4 @@
-import * as bookService from '../services/bookService';
+import * as bookService from '../services/bookService.js';
 
 export const fetchALLBooks = async (req, res) => {
     const books = await bookService.fetchALLBooks();
